@@ -4,4 +4,4 @@
 - Program: http://metroc.ca/programs/information-tec
 
 ### Presentation:
-http://rpubs.com/gyangm/metrocRpress
+- http://rpubs.com/gyangm/metrocRpress
