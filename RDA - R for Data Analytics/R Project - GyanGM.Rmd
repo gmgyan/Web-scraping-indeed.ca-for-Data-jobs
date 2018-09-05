@@ -1,0 +1,35 @@
+---
+title: "R Project: Data Science Jobs in Current Market"
+author: "Gyaan GM"
+date: "August 29, 2018"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Dataset summary
+As a part of data set, instead of using already available offline data, I have tried to gather live or most recent data on recend data science (DS) jobs in Ontario, Canada from www.indeed.ca. This data is then explored and analyzed in order to determine the relationship between a set of variables. In particlular, the reason for choosing this data is to try to answer the following questions as an aspiring DS professional:
+
+```
+Q1. Location wise job listings ?
+Q2. What are top six companies with most jobs in data science ?
+Q3. Analyst vs Scientist jobs
+Q4. What is the most commonly used word in job postings ?
+Q5. Most popular skillsets required for DS job ?
+```
+
+## Analysis summary
+I am using R libraries like rvest, tidyverse, plyr, ggplot2 etc in my analysis in order to scrape the live data from indeed.ca and analyse and answer above questionnaires. And the objective is to have insight on the current DS job market in Ontario, Canada.
+
+## List of R codes
+For the complete R codes, please refer to following link:
+```
+https://github.com/eGyaan/MetroC_R-Project/blob/master/R%20Project%20-%20GyanGM.R
+```
+
+## Conclusion
+Most of DS jobs are available in Toronto as compared to other cities of Ontario province. TD bank leads the company with highest number of job postings in DS. Most skills required by employers in DS is MS Excel followed by SQL and so on. Moreover, when comparing Data Analyst jobs with Data Scientist jobs, prior has more jobs in market than the latter.
+
