@@ -1,3 +1,3 @@
-# EDA on current data jobs in Ontario region of Canada
-- Language used: R
-- Dataset is scarpped from www.indeed.ca
+#### Analyzing current data analytic job market around Ontario region in Canada using R programming
+###### Dataset 
+- Scraped from https://www.indeed.ca
